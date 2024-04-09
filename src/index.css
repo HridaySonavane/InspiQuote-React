@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    * {
+        @apply overflow-x-hidden
+    }
+    
+    button {
+        @apply bg-[#43415c] rounded-full text-white font-semibold text-center hover:bg-[#ffc8ca] hover:text-black transition ease-in-out duration-150
+    }
+
+    a {
+        @apply text-xl font-['Ubuntu'] font-medium text-zinc-900 cursor-pointer
+    }
+
+    .card {
+        @apply w-56 h-56 bg-amber-700 rounded-md
+    }
+}
